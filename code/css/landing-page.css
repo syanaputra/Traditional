@@ -53,8 +53,8 @@ h6 {
     width:50px;
 	border-top:0;
     border-bottom:3px solid #ccc;
-	margin-top:60px;
-	margin-bottom:60px;
+	margin-top:50px;
+	margin-bottom:50px;
 }
 
 /* ===========================================================
@@ -130,6 +130,69 @@ h6 {
 }
 
 /* ===========================================================
+	Portfolio Modal
+=========================================================== */
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* ===========================================================
 	Button
 =========================================================== */
 .btn-tradition,
@@ -172,6 +235,52 @@ h6 {
 .btn-tradition-black:hover {
 	background:#111;
 	color:#fff;
+}
+
+
+/* ===========================================================
+	Testimonial Carousels
+=========================================================== */
+.carousel-control.left,.carousel-control.right  {background:none;width:25px;}
+.carousel-control.left {left:-25px;}
+.carousel-control.right {right:-25px;}
+.broun-block {
+    background: #aaa;
+    padding-bottom: 34px;
+}
+.block-text {
+    background-color: #fff;
+    box-shadow: 0 3px 3px 0 #666;
+    color: #626262;
+    font-size: 14px;
+    margin-top: 27px;
+    padding: 20px 25px;
+	text-align:center;
+}
+.block-text a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.block-text a,
+.block-text em {
+    display:block;
+}
+
+.block-text img {
+    display:inline-block;
+}
+
+.testimonial-author {
+	padding-top:30px;
+	text-align:center;
+}
+
+
+
+.block {
+    display: block;
 }
 
 
